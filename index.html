@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cosmos</title> 
+        <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet">       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="scss/style.css">
+    </head>
+    <body>
+        <header class="header">
+          <div class="container">
+            <div class="header__wraper flex">
+              <div class="header__logo">
+                <a class="logo__link">
+                  <img src="images/logo.png" href="#" alt="Kosmos">
+                </a>
+              </div>
+              <div class="header__nav">
+                <ul class="nav__list flex">
+                  <li class="nav__item">
+                    <a class="nav__link drop__btn">Каталог</a>
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link flex">Системы водоподготовки
+                      <span style="width: 8px"></span>
+                      <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="path-1-inside-1_0_136" fill="white">
+                          <path d="M2.29428 7.02144C3.09092 5.14219 4.50847 3.59332 6.30997 2.63372C8.11147 1.67412 10.1878 1.36195 12.1918 1.74939C14.1958 2.13682 16.0062 3.20039 17.3202 4.7623C18.6342 6.32422 19.3723 8.28984 19.4111 10.3306C19.4499 12.3714 18.787 14.3636 17.5333 15.9744C16.2796 17.5851 14.511 18.7167 12.5231 19.18C10.5353 19.6433 8.44863 19.4103 6.61195 18.5198C4.77528 17.6294 3.2999 16.1355 2.43241 14.2879L3.49398 13.7895C4.24732 15.394 5.52857 16.6913 7.12357 17.4646C8.71856 18.2378 10.5306 18.4402 12.2569 18.0378C13.9832 17.6355 15.5191 16.6528 16.6078 15.254C17.6966 13.8552 18.2722 12.1251 18.2385 10.3529C18.2049 8.58066 17.5639 6.87369 16.4228 5.51729C15.2816 4.1609 13.7095 3.23728 11.9692 2.90083C10.2289 2.56437 8.42577 2.83547 6.86132 3.66879C5.29686 4.50212 4.06584 5.84719 3.37402 7.47916L2.29428 7.02144Z"/>
+                        </mask>
+                        <path d="M2.29428 7.02144C3.09092 5.14219 4.50847 3.59332 6.30997 2.63372C8.11147 1.67412 10.1878 1.36195 12.1918 1.74939C14.1958 2.13682 16.0062 3.20039 17.3202 4.7623C18.6342 6.32422 19.3723 8.28984 19.4111 10.3306C19.4499 12.3714 18.787 14.3636 17.5333 15.9744C16.2796 17.5851 14.511 18.7167 12.5231 19.18C10.5353 19.6433 8.44863 19.4103 6.61195 18.5198C4.77528 17.6294 3.2999 16.1355 2.43241 14.2879L3.49398 13.7895C4.24732 15.394 5.52857 16.6913 7.12357 17.4646C8.71856 18.2378 10.5306 18.4402 12.2569 18.0378C13.9832 17.6355 15.5191 16.6528 16.6078 15.254C17.6966 13.8552 18.2722 12.1251 18.2385 10.3529C18.2049 8.58066 17.5639 6.87369 16.4228 5.51729C15.2816 4.1609 13.7095 3.23728 11.9692 2.90083C10.2289 2.56437 8.42577 2.83547 6.86132 3.66879C5.29686 4.50212 4.06584 5.84719 3.37402 7.47916L2.29428 7.02144Z" stroke-width="3" mask="url(#path-1-inside-1_0_136)"/>
+                        <path d="M2.90084 10.2555L2.40084 10.2555L2.40084 11.2555L2.90084 11.2555L2.90084 10.2555ZM14.9876 11.109C15.1829 10.9138 15.1829 10.5972 14.9876 10.4019L11.8056 7.21996C11.6104 7.0247 11.2938 7.0247 11.0985 7.21996C10.9033 7.41522 10.9033 7.7318 11.0985 7.92707L13.927 10.7555L11.0985 13.5839C10.9033 13.7792 10.9033 14.0958 11.0985 14.291C11.2938 14.4863 11.6104 14.4863 11.8056 14.291L14.9876 11.109ZM2.90084 11.2555L14.6341 11.2555L14.6341 10.2555L2.90084 10.2555L2.90084 11.2555Z"/>
+                    </svg>
+                    </a>
+                   
+                  </li>
+                  <li class="nav__item">
+                    <a class="nav__link">Контакты</a>
+                  </li>
+                </ul>
+                <ul class="drop__list">
+                  <li class="drop__item">
+                    <a class="drop__link">Мембранные элементы</a>
+                  </li>
+                  <li class="drop__item">
+                    <a class="drop__link">Реагенты для обратного осмоса</a>
+                  </li>
+                  <li class="drop__item">
+                    <a class="drop__link">Ионнообменные смолы</a>
+                  </li>
+                  <li class="drop__item">
+                    <a class="drop__link">Фильтрующие среды</a>
+                  </li>
+                </ul>
+              </div>
+              
+              <a class="header__btn" href="#" aria-label="Задать вопрос">
+                Задать вопрос
+              </a>
+              <div class="header__tell ">
+                <ul class="tell-list flex">
+                  <li class="tell__item">
+                    <a class="tell__link" href="tel:78002220378">8 (800) 222-03-78</a>
+                  </li>
+                  <li class="tell__item item--phone">
+                    <a class="tell__link flex" href="tel:78123229078">
+                      +7 (812) 322-90-78</a>
+                  </li>
+                  <li class="tell__item flex">
+                    <a class="wp-link" href="https://wa.me/79052823555">
+                      <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1894 10.7865C12.9637 10.6748 11.8572 10.1363 11.6512 10.0613C11.4452 9.98701 11.2952 9.95026 11.1445 10.1738C10.9946 10.3958 10.5636 10.8983 10.4326 11.0468C10.3008 11.196 10.1698 11.214 9.94488 11.103C9.71994 10.9905 8.99439 10.7558 8.13479 9.99676C7.46604 9.40576 7.0139 8.67601 6.88288 8.45252C6.75185 8.22977 6.86849 8.10902 6.98133 7.99802C7.08282 7.89827 7.20627 7.73777 7.31911 7.60802C7.43196 7.47752 7.46907 7.38452 7.54405 7.23527C7.61979 7.08677 7.58192 6.95702 7.52512 6.84527C7.46907 6.73352 7.0192 5.63627 6.83138 5.19002C6.64885 4.75577 6.4633 4.81502 6.32546 4.80752C6.19368 4.80152 6.04372 4.80002 5.89376 4.80002C5.74381 4.80002 5.49994 4.85552 5.29394 5.07902C5.08718 5.30177 4.50628 5.84102 4.50628 6.93827C4.50628 8.03477 5.31211 9.09451 5.42496 9.24376C5.53781 9.39226 7.01163 11.6438 9.26931 12.609C9.80704 12.8385 10.2259 12.9758 10.5523 13.0778C11.0915 13.248 11.5823 13.224 11.9701 13.1663C12.4017 13.1025 13.3015 12.627 13.4893 12.1065C13.6764 11.586 13.6764 11.1398 13.6203 11.0468C13.5643 10.9538 13.4143 10.8983 13.1886 10.7865H13.1894ZM9.083 16.3388H9.07997C7.73899 16.339 6.42268 15.9821 5.26894 15.3053L4.99629 15.1448L2.16226 15.8813L2.91886 13.1453L2.74088 12.8648C1.9912 11.6831 1.59446 10.3154 1.59651 8.91976C1.59803 4.83227 4.95615 1.50678 9.08603 1.50678C11.0855 1.50678 12.9652 2.27927 14.3785 3.68027C15.0755 4.36771 15.628 5.1852 16.004 6.08544C16.3799 6.98569 16.5718 7.95084 16.5687 8.92501C16.5672 13.0125 13.2091 16.3388 9.083 16.3388ZM15.4539 2.61602C14.6194 1.78422 13.6265 1.12468 12.5328 0.67563C11.4391 0.226579 10.2662 -0.00305718 9.08224 3.0733e-05C4.11852 3.0733e-05 0.0772506 4.00127 0.0757359 8.91901C0.0734358 10.4841 0.488022 12.0221 1.27766 13.3778L0 18L4.77439 16.7595C6.09512 17.4721 7.57518 17.8455 9.07922 17.8455H9.083C14.0467 17.8455 18.088 13.8443 18.0895 8.92576C18.0931 7.75374 17.8622 6.59259 17.4097 5.50955C16.9573 4.4265 16.2926 3.44303 15.4539 2.61602Z" fill="#FFBA00"/>
+                      </svg>  
+                    </a>
+                    <a class="tg-link" href="https://telegram.me/CHZS1">
+                      <svg width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.7584 0.350306C17.573 0.177692 17.3486 0.0634985 17.1088 0.0198648C16.8691 -0.023769 16.6231 0.00478704 16.397 0.102497L0.979166 6.7566C0.708739 6.86982 0.479677 7.07759 0.327252 7.34792C0.174827 7.61821 0.10749 7.93613 0.13561 8.25264C0.160698 8.56899 0.278443 8.86794 0.471188 9.10456C0.663934 9.34119 0.921295 9.50281 1.20467 9.56506L5.12177 10.4186V15.797C5.12164 16.088 5.20015 16.3724 5.34736 16.6142C5.49458 16.8561 5.70385 17.0444 5.94863 17.1554C6.11062 17.227 6.28348 17.2643 6.4581 17.2655C6.63361 17.2661 6.80749 17.2283 6.96955 17.1543C7.1316 17.0802 7.27857 16.9714 7.40188 16.8341L9.57339 14.457L12.8557 17.6326C13.0981 17.8675 13.4097 17.9979 13.7327 17.9997C13.8748 18.0029 14.0163 17.9781 14.1504 17.9263C14.3707 17.8497 14.5691 17.7111 14.7258 17.5244C14.8826 17.3377 14.9923 17.1092 15.044 16.8617L18.1843 1.79126C18.2393 1.53122 18.2286 1.25965 18.1536 1.00576C18.0785 0.751868 17.9418 0.525261 17.7584 0.350306ZM5.63125 9.03279L1.47193 8.12416L13.1314 3.08537L5.63125 9.03279ZM6.4581 15.797V11.4466L8.56279 13.4841L6.4581 15.797ZM13.7411 16.5312L6.859 9.87714L16.7729 2.01154L13.7411 16.5312Z" fill="#FFBA00"/>
+                      </svg>
+                    </a>
+                    <a  class="tell__link" href="tel:79643846740">+7 (964) 384-67-40</a>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn-reset burger">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+              </button>
+            </div>
+          
+            <nav class="header-mobile__nav flex">
+              <div class="header__logo">
+                <a class="logo__link">
+                  <img src="images/logo.png" href="#" alt="Kosmos">
+                </a>
+              </div>
+              <ul class="header__list flex">
+                <li class="header__list-item">
+                  <a class="header__link">Мембранные элементы</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link">Реагенты для обратного осмоса</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link">Ионнообменные смолы</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link">Фильтрующие среды</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link">Системы водоподготовки</a>
+                </li>
+                <li class="header__list-item">
+                  <a class="header__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+        </header>
+        <section class="cart">
+          <div class="container">
+            <div class="cart__wraper flex">
+              <form class="cart__search">
+                <input class="search-input" type="text" placeholder="Введите запрос">
+              </form>
+              <button class="search-btn">
+              </button>
+              <div class="cart__info flex">
+                <a class="cart__descr" href="#">Ваш запрос</a>
+                <a class="cart__descr--mobile">
+
+                </a>
+                <div class="cart__image"></div>
+                <div class="cart__index">
+                  <span class="cart__count">100</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="hero">
+          <div class="container">
+            <div class="hero__wrap flex">
+              <div class="hero__info hero__part flex">
+                <h1 class="hero__title">
+                  Комплектующие и&nbsp;расходные 
+                  материалы для систем водоподготовки
+                </h1>
+                <p class="hero__descr">
+                  Предлагаем Вам самые качественные и&nbsp;проверенные 
+                  мембранные элементы, реагенты для установок обратного 
+                  осмоса, фильтрующие среды и&nbsp;ионообменные смолы, 
+                  подобранные на&nbsp;основе многолетнего опыты работы 
+                  компании ОСМОС в&nbsp;сфере водоподготовки
+                </p>
+                <a class="hero__btn">Перейти в каталог</a>
+              </div>
+              <div class="hero__image hero__part"></div>
+            </div>
+          </div>
+        </section>
+        <section class="mail">
+          <div class="container">
+              <form class="mail__form flex">
+                  <h2 class="mail__title">
+                      Остались вопросы? Задавайте!
+                  </h2>
+                  <div class="form-top flex">
+                      <div class="form-label name flex">
+                          <label>*Ваше имя</label>
+                          <input class="mail__input" type="text" requared>
+                      </div>
+                      <div class="form-label form-phone flex"><label>*Ваш телефон</label>
+                          <input class="mail__input" type="text" requared>
+                      </div>
+                      <div class="form-label form-phone flex">
+                        <label>*Ваш E-mail</label>
+                          <input class="mail__input form-mail" type="text" requared>
+                      </div>
+                  </div>
+                  <div class="form-bottom flex">
+                      <label class="text-label">Сообщение</label>
+                          <input class="mail__input text-input">
+                          
+                  </div>
+                  
+                  <button class="form-btn">Отправить</button>
+                  <p class="mail__descr">
+                      Нажимая «Отправить»,  Вы соглашаетесь с <a class="mail__link">политикой обработки 
+                      персональной информации</a>
+                  </p>
+              </form>    
+          </div>
+      </section>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__wrap flex">
+              <div class="footer__left flex">
+                <div class="footer__info">
+                  <a class="logo__link">
+                    <img src="images/logo.png" href="#" alt="Kosmos">
+                  </a>
+                  <p class="copyright">© 1999-2022, ООО «К-Осмос»
+                    </p>
+                  <p class="footer__descr descr--2">
+                    При копировании материалов активная ссылка на сайт  
+                    <a class="linc-to-source">www.osmos.ru</a>
+                    обязательна
+                  </p>
+                  <a class="footer__politics">
+                    Политика обработки персональны данных
+                  </a>
+                </div>
+  
+                <div class="footer__info">
+                  <ul class="footer__law">
+                    <li class="law__item">
+                      <p class="law__descr">
+                        ООО &laquo;К-Осмос&raquo;
+                      </p>
+                    </li>
+                    <li class="law__item">
+                      <p class="law__descr">
+                        ИНН: 7810958242<br>
+                        ОГРН: 1227800145946
+                      </p>
+                    </li>
+                    <li class="law__item">
+                      <adress>
+                        <p class="law__descr">
+                          Юридический адрес: 198097,
+                          г. Санкт-Петербург, ул. Благодатная,
+                          д.69 к.1, оф&nbsp;3301
+                        </p>
+                      </adress>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div class="footer__right flex">
+                <div class="footer__info">
+                  <ul class="footer__menu">
+                    <li class="menu__item">
+                      <a class="menu__link">
+                        Мембранные элементы
+                      </a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link">
+                        Реагенты для обратного осмоса
+                      </a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link">
+                        Ионнообменнные смолы
+                      </a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link">
+                        Фильтрующие среды
+                      </a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link link-gold">
+                        Системы водоподготовки
+                        от&nbsp;компании &laquo;Осмос&raquo;
+                      </a>
+                    </li>
+                    <li class="menu__item">
+                      <a class="menu__link link-gold">
+                        Подбор аналогов
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+  
+                <div class="footer__info">
+                  <ul class="footer__contacts flex">
+                    <li class="contacts__item">
+                      <h3 class="contacts__title">
+                        Контакты
+                      </h3>
+                      <ul class="tell-list flex">
+                        <li class="tell__item">
+                          <a class="tell__link" href="tel:78002220378">8 (800) 222-03-78</a>
+                        </li>
+                        <li class="tell__item">
+                          <a class="tell__link" href="tel:78123229078">+7 (812) 322-90-78</a>
+                        </li>
+                        <li class="tell__item">
+                          <a class="tell__link" href="tel:79643846740">+7 (964) 384-67-40</a>
+                        </li>
+                        <li class="tell__item flex">
+                          <a class="social__link social-phone">
+  
+                          </a>
+                          <a class="social__link social-whatsup">
+                          </a>
+                          <a class="social__link social-telega" href="https://telegram.me/CHZS1">
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="contacts__item">
+                      <h3 class="contacts__title">
+                        E-mail
+                      </h3>
+                      <div class="contacts__mail">
+                        <a class="contacts__link flex" href="mailto:K@osmos.ru">
+                          <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 1H19C20.1 1 21 1.9 21 3V15C21 16.1 20.1 17 19 17H3C1.9 17 1 16.1 1 15V3C1 1.9 1.9 1 3 1Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 3L11 10L1 3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                          K@osmos.ru</a>
+                      </div>
+                      <a class="header__btn" href="#" aria-label="Задать вопрос">
+                        Задать вопрос
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
